@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CssFrameworkBulma</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
-$widescreen-enabled: false;
-$fullhd-enabled: false;
     </head>
   <body class="is-family-monospace">
     <header>
@@ -64,6 +62,9 @@ $fullhd-enabled: false;
                     <a class="navbar-item" href="#Ganondorf">
                       Ganondorf
                     </a>
+                    <a class="navbar-item" href="#Persona">
+                      Personaje Secundarios
+                    </a>
                     <hr class="navbar-divider">
                     <a class="navbar-item" href="#Contactanos">
                       Reportar Problemas
@@ -75,11 +76,8 @@ $fullhd-enabled: false;
               <div class="navbar-end">
                 <div class="navbar-item">
                   <div class="buttons">
-                    <a class="button is-primary">
+                    <a class="button is-primary" href="#Contactanos">
                       <strong>Inscribirse</strong>
-                    </a>
-                    <a class="button is-light">
-                      Inicio Sesion
                     </a>
                   </div>
                 </div>
@@ -104,7 +102,7 @@ $fullhd-enabled: false;
           </section>
           <section class="hero has-background-grey-light" id="Historia"> 
             <div class="hero-body">
-                <div class="flex-grid has-3-cols ">
+                <div class="flex-grid has-3-cols is-col-min-1 ">
                     <div class="grid">
                         <div class="column is-justify-content-center is-align-content-center">
                             <p class="title">The Legend of Zelda: Tears of the Kingdom, Un Mundo vivo y salvaje</p>
@@ -116,7 +114,7 @@ $fullhd-enabled: false;
                                 Hyrule se eleve hacia el cielo antes de caer bajo tierra. Zelda también cae al abismo y desaparece en un destello de luz. 
                                 Link es agarrado por el brazo incorpóreo y teletransportado.</p>
                         </div>
-                        <div class="column is-justify-content-center is-align-content-center">
+                        <div class="column is-justify-content-center is-align-content-center is-col-min-1">
                             <p class="subtitle has-text-white-ter">Este es el punto de partida de un Zelda que viene con ganas de romper 
                                 esquemas. Un Zelda que seguirá gustando a los fans de la saga, pero que a buen seguro conseguirá levantar 
                                 más de una ceja y de dos entre los más conservadores. Se podría decir que es el Zelda menos Zelda de todos, 
@@ -215,39 +213,133 @@ $fullhd-enabled: false;
             </div>
         </div>
           </section>
+          <section class="has-background-link-light" id="Persona">
+            <br>
+            <div class='columns is-multiline'>
+              <div class='column is-3'>
+                <div class="card">
+                  <div class="card-image">
+                    <figure class="image is-3by4">
+                      <img src="img/purah.png" alt="">
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <div class="content">
+                      <p class="title is-3 has-text-centered ">Purah</p>
+                      <p class="has-text-justified">Prunia es una Sheikah que puede ser encontrada en Aldea Hatelia, 
+                        concretamente en el laboratorio de Hatelia, donde experimenta con tecnología 
+                        Sheikah con su asistente Symon. A pesar de su apariencia, es la hermana mayor de Impa.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
-          <section id="Contactanos">
-            <section class="hero is-warning" id="Contactanos">
-                <div class="hero-body">
-                  <p class="title">Contactanos</p>
-                  <p class="subtitle">Warning subtitle</p>
-                </div>
-              </section>
-              <form class="box">
-                <div class="field">
-                  <label class="label">Email</label>
-                  <div class="control">
-                    <input class="input" type="email" placeholder="e.g. alex@example.com" />
+                <div class='column is-3'>
+                  <div class="card">
+                    <div class="card-image">
+                      <figure class="image is-3by4">
+                        <img src="img/ruija.jpg" alt="">
+                      </figure>
+                    </div>
+                    <div class="card-content">
+                      <div class="content">
+                        <p class="title is-3 has-text-centered ">Paya</p>
+                        <p class="has-text-justified">Es la descendiente de la familia real y líder de la tribu Gerudo. Vive en la Ciudadela Gerudo, 
+                          desde donde gobierna su pueblo. Riju es demasiado joven para ser líder, habiendo sido empujada a ejercer este puesto tras la inesperada muerte de su madre, la anterior matriarca.
+
+                        </p>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                </div>
-              
-                <div class="field">
-                  <label class="label">Password</label>
-                  <div class="control">
-                    <input class="input" type="password" placeholder="********" />
-                  </div>
-                </div>
-              
-                <button class="button is-primary">Sign in</button>
-              </form>
+
+                  <div class='column is-3'>
+                    <div class="card">
+                      
+                      <div class="card-image">
+                        <figure class="image is-3by4">
+                          <img src="img/yunobo.png" alt="">
+                        </figure>
+                      </div>
+                      <div class="card-content">
+                        <div class="content">
+                          <p class="title is-3 has-text-centered ">Yunobo</p>
+                          <p class="has-text-justified">Yunobo es muy tímido y fácil de asustar, huyendo
+                             normalmente al enfrentarse con monstruos. Sin embargo, es muy amistoso y no duda 
+                             en ofrecer su ayuda a Link en su misión de liberar a Vah Rudania.
+                            Yunobo, como descendiente de Daruk, puede usar su habilidad "Escudo de Daruk.
+                          </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class='column is-3'>
+                      <div class="card">
+                        
+                        <div class="card-image">
+                          <figure class="image is-3by4">
+                            <img src="img/Tulin.jpg" alt="">
+                          </figure>
+                        </div>
+                        <div class="card-content">
+                          <div class="content">
+                            <p class="title is-3 has-text-centered ">Yunobo</p>
+                            <p class="has-text-justified">
+                             Tulin aparece por primera vez en Tears of the Kingdom en un papel menor. 
+                              En Lágrimas del Reino, Tulin, habiendo emergido como un guerrero bajo la guía de su padre, juega 
+                              un papel crucial en la historia, despertando como el nuevo Sabio del Viento después de aceptar empuñar la Piedra Secreta.
+    
+                            </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+              </div>
+            <br>
           </section>
+          <section class="hero is-warning" id="Contactanos"> 
+            <div class="hero-body">
+                <div class="flex-grid has-0-cols">
+                    <div class="grid">
+                      <form class="box ">
+                        <p class="title has-text-centered is-size-1 has-text-white-ter ">QUIERES SABER MAS SOBRE NOSOTROS?</p>
+                        <br>
+                        <p class="subtitle is-justify-content-center has-text-grey-light">Mandanos un correo y nosotros te comunicaremos 
+                          las mejores tendencia y ultimas noticias de Zelda Tears of the Kingdom.</p>
 
+                          <div class="field">
+                            <label class="label">Nombre</label>
+                            <div class="control">
+                              <input class="input is-focused" type="Nombre" placeholder="Marcos Enamorado" />
+                            </div>
+                          </div>
+                        
+                        <div class="field">
+                          <label class="label">Email</label>
+                          <div class="control">
+                            <input class="input is-focused" type="email" placeholder="Markenamorado@example.com" />
+                          </div>
+                        </div>
+                        <br>
+                        <button class="button is-primary">Sign in</button>
+                      </form>
+                        <div class="column">
+                            <img class="image is-1by1" src="img/linkpose.png" />
+                        </div>
+                </div>
 
-
+            </div>
+        </div>
+          </section>
     </main>
 
-
-
-
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>Bulma CssFramework</strong> by <a href="https://jgthms.com">Marcos Enamorado</a>.
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
